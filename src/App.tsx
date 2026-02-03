@@ -1,5 +1,6 @@
 import backgroundImage from "./assets/background.png"
 import { Card } from "@/components/ui/card"
+import YearlyProgressCard from "@/components/YearlyProgressCard"
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <div className="h-[70vh] grid grid-cols-[25%_50%_25%] gap-4">
         {/* Left column - 2 cards */}
         <div className="flex flex-col gap-4 h-full">
-          <Card className="h-1/2" />
+          <YearlyProgressCard className="h-1/2" />
           <Card className="h-1/2" />
         </div>
 
